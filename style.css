@@ -25,3 +25,13 @@ body {
   border-top-left-radius: 150px;
   border-top-right-radius: 150px;
 }
+
+.eye {
+  position: absolute;
+  top: 90px; /* Adjusted to position eyes lower */
+  right: 170px;
+  width: 20px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+}

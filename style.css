@@ -28,10 +28,17 @@ body {
 
 .eye {
   position: absolute;
-  top: 90px; /* Adjusted to position eyes lower */
-  right: 170px;
+  top: 85px;
   width: 20px;
-  height: 10px;
+  height: 20px;
   background: #000;
   border-radius: 50%;
+}
+
+.eye.left {
+  left: 50px;
+}
+
+.eye.right {
+  right: 50px;
 }

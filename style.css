@@ -28,7 +28,7 @@ body {
 
 .eye {
   position: absolute;
-  top: 85px;
+  top: 85px; /* Positions the eyes below the hair */
   width: 20px;
   height: 20px;
   background: #000;
@@ -36,9 +36,20 @@ body {
 }
 
 .eye.left {
-  left: 50px;
+  left: 50px; /* Positions the left eye */
 }
 
 .eye.right {
-  right: 50px;
+  right: 50px;  /* Positions the right eye */
+}
+
+.mouth {
+  position: absolute;
+  bottom: 40px; /* Positions the mouth above the bottom of the avatar */
+  left: 50%;    /* Centers the mouth horizontally */
+  width: 60px;  /* Width of the mouth */
+  height: 20px; /* Height of the mouth */
+  transform: translateX(-50%); /* Centers the mouth */
+  background: #e57373;
+  border-radius: 0 0 60px 60px; /* Rounded corners for the mouth */
 }

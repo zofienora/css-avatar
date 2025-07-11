@@ -15,3 +15,13 @@ body {
   border-radius: 50%; /* Makes the avatar circular */
   box-shadow: 0 0 0 1px #333; /* Adds a border-like effect */
 }
+
+.hair {
+  position: absolute; /* Allows positioning relative to the .avatar container */
+  top: -5px; /* Positions the hair at the top of the avatar */
+  width: 100%;
+  height: 80px; /* Adjust height for hair */
+  background: #1c1401;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+}

@@ -6,3 +6,12 @@ body {
   height: 100vh; /* Full viewport height */
   margin: 0;  /* Remove default margin */
 }
+
+.avatar {
+  position: relative; /* Makes the .avatar container a positioning context. allows all the child elements (like hair, eyes, mouth) that use position: absolute to be placed relative to this circle */
+  width: 200px; 
+  height: 200px;
+  background: #ffe0bd;
+  border-radius: 50%; /* Makes the avatar circular */
+  box-shadow: 0 0 0 1px #333; /* Adds a border-like effect */
+}
